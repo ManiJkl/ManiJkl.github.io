@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8">
+		<title>Fotitos</title>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./stylecard.css">
+
+	</head>
+	<body>
+	<!-- partial:index.partial.html -->
+	
+	<div class="app">
+
+		<div class="cardList">
+			<button class="cardList__btn btn btn--left">
+				<div class="icon">
+					<svg>
+						<use xlink:href="#arrow-left"></use>
+					</svg>
+				</div>
+			</button>
+
+			<div class="cards__wrapper">
+				<div class="card current--card">
+					<div class="card__image">
+						<img src="laura.png" alt="" />
+					</div>
+				</div>
+
+				<div class="card next--card">
+					<div class="card__image">
+						<img src="Mani (1).png" alt="" />
+					</div>
+				</div>
+
+				<div class="card previous--card">
+					<div class="card__image">
+						<img src="kata.png" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<button class="cardList__btn btn btn--right">
+				<div class="icon">
+					<svg>
+						<use xlink:href="#arrow-right"></use>
+					</svg>
+				</div>
+			</button>
+		</div>
+
+		<div class="infoList">
+			<div class="info__wrapper">
+				<div class="info current--info">
+					<h1 class="text name">Laura</h1>
+					<h4 class="text location">Mamasita</h4>
+					<p class="text description">Rica, deliciosa, la que todos quieren pero ni ninguno puede, la inalcanzable, la puppy</p>
+				</div>
+
+				<div class="info next--info">
+					<h1 class="text name">Morales</h1>
+					<h4 class="text location">Papasito</h4>
+					<p class="text description"></p>
+				</div>
+
+				<div class="info previous--info">
+					<h1 class="text name">Katita</h1>
+					<h4 class="text location">Gymrat</h4>
+					<p class="text description">Pero mamasita</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="app__bg">
+			<div class="app__bg__image current--image">
+				<img src="https://fotos.perfil.com/2019/12/11/1112diamontanas-818189.jpg" alt="" />
+			</div>
+			<div class="app__bg__image next--image">
+				<img src="https://www.infobae.com/new-resizer/iK1_iTZPw-ikVUJrfRwe5PGcK_8=/1440x960/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/I4MYWZIZONGITLC45PA6ED67X4.jpg" alt="" />
+			</div>
+			<div class="app__bg__image previous--image">
+				<img src="https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/madrid/calle-gran-via-madrid-s333961043.jpg_604889389.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+
+	<div class="loading__wrapper">
+		<div class="loader--text">Dejame cargar la pagina ehg</div>
+		<div class="loader">
+			<span></span>
+		</div>
+	</div>
+
+	<div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2"></div>
+	<div class='cursor3' id="cursor3"></div>
+	
+	
+
+	<svg class="icons" style="display: none;">
+		<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+			<polyline points='328 112 184 256 328 400'
+						style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+		<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+			<polyline points='184 112 328 256 184 400'
+						style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+	</svg>
+
+
+	<div class="support">
+		<a href="https://www.instagram.com/mani_jkl/" target="_blank"><i class="fab fa-instagram"></i></a>
+	</div>
+
+	<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./scriptcard.js"></script>
+
+	</body>
+</html>
